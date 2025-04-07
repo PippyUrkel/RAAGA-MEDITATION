@@ -1,12 +1,4 @@
-.raga-card {
-    cursor: pointer;
-    border-radius: 20px;
-    overflow: hidden;
-    background: rgba(255, 255, 255, 0.7);
-    backdrop-filter: blur(8px);
-    transition: all 0.3s ease-in-out;
-    border: none;
-  }
+
   
   .raga-card:hover {
     transform: scale(1.05);
@@ -18,27 +10,41 @@
     object-fit: cover;
   }
   
+  .raga-card {
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(241, 220, 220, 0.7)!important;
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
+    opacity: 0.9;
+    border: none;
+  }
+
   .card-title {
     font-weight: 600;
     font-size: 1.2rem;
+    color: #180101;
   }
-  
+
   .card-text {
     font-size: 0.95rem;
-    color: #555;
+    color: #180101;
   }
-  
+
+
+  .raga-detail {
+    background: rgba(241, 220, 220, 0.7);
+    color: #180101;
+    border-radius: 20px;
+    padding: 30px;
+    opacity: 0.99;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    transition: all 0.4s ease;
+  }
   .back-button {
     border-radius: 20px;
     padding: 8px 20px;
-  }
-  
-  .raga-detail {
-    background: #ffffffee;
-    border-radius: 20px;
-    padding: 30px;
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
-    transition: all 0.4s ease;
   }
   
   .raga-detail img {

@@ -1,0 +1,91 @@
+.composer-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("background.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 2rem;
+    position: relative;
+  }
+  
+  .composer-page::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(10, 10, 10, 0.6); /* soft dark overlay */
+    z-index: 0;
+  }
+  
+  .composer-box {
+    position: relative;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 3rem 2rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+    color: #fff;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  }
+  
+  .composer-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-family: 'Cinzel Decorative';
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: #d8d8d8;
+    font-style: italic;
+  }
+  
+  .composer-input {
+    width: 100%;
+    padding: 0.9rem 1.2rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #ccc;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    margin-bottom: 1.5rem;
+    transition: background 0.3s;
+  }
+  
+  .composer-input::placeholder {
+    color: #e0e0e0;
+  }
+  
+  .composer-input:focus {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .generate-button {
+    background-color: #ff9e00;
+    color: white;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    font-size: 1.1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .generate-button:hover {
+    background-color: #ff7b00;
+  }
+  
+  .composition-output {
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    color: #f0f0f0;
+    font-style: italic;
+  }
+  
