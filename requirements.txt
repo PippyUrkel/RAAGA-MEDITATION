@@ -1,3 +1,11 @@
-flask 
-torch 
-audiocraft
+torch==2.1.0             
+torchaudio==2.1.0        
+audiocraft==1.0.0       
+transformers==4.35.2     # compatible version for T5 model loading
+huggingface-hub>=0.16.4
+soundfile               # to write .wav output
+flask                   # for your API
+scipy                   # often used internally
+tokenizers
+tqdm
+numpy
