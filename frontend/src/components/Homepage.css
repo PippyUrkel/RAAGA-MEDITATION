@@ -1,0 +1,19 @@
+.homepage {
+    background: linear-gradient(to bottom, #fff1d6, #eef2dd);
+    min-height: 100vh;
+  }
+  
+  .hero-section {
+    background-color: #ffe7cc !important;
+  }
+  
+  .healing-section {
+    max-width: 800px;
+  }
+  
+  
+  .title-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }

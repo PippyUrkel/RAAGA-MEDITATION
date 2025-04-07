@@ -1,0 +1,52 @@
+.raga-card {
+    cursor: pointer;
+    border-radius: 20px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease-in-out;
+    border: none;
+  }
+  
+  .raga-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+  }
+  
+  .card-img-top {
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: 600;
+    font-size: 1.2rem;
+  }
+  
+  .card-text {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  
+  .back-button {
+    border-radius: 20px;
+    padding: 8px 20px;
+  }
+  
+  .raga-detail {
+    background: #ffffffee;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.12);
+    transition: all 0.4s ease;
+  }
+  
+  .raga-detail img {
+    border-radius: 16px;
+    margin-bottom: 20px;
+  }
+  
+  audio {
+    outline: none;
+  }
+  
