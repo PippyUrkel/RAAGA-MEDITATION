@@ -13,13 +13,13 @@ It uses a Flask backend powered by the MusicGen model and a React frontend for u
 - **🎧 Audio Playback**: Listen to the generated music directly in your browser.
 - **⬇️ Download Option**: Download the `.wav` file for offline listening.
 
-[!image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/HOMEPAGE.png)
-[!image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/LIBRARY_PAGE.png)
-[!image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/GENERATED_MUSIC_PAGE.png)
-[!image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/BACKEND_INSIDE.png)
+![image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/HOMEPAGE.png)
+![image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/LIBRARY_PAGE.png)
+![image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/GENERATED_MUSIC_PAGE.png)
+![image](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/BACKEND_INSIDE.png)
 
 - sample music generated from music-gen model
-(https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/generated_music.wav)
+![sample audio](https://github.com/PippyUrkel/RAAGA-MEDITATION/blob/master/frontend/src/assets/generated_music.wav)
 
 ---
 
